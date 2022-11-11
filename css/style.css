@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: auto;
+    background: #043873;
+    font-family: 'DM Sans', sans-serif;
+    color: #FFFFFF;
+}
+
+.container {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+nav {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+
+}
+li{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    font-weight: 500px;
+}
+
+.login {
+    padding: 10px;
+    border: 1px solid #FFE492;
+    border-radius: 10px;
+    font-family: 'DM Sans', sans-serif;
+    width: 100px;
+    color: #4F9CF9;
+    background-color: #FFE492;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.free {
+    padding: 10px;
+    border: 1px solid #4F9CF9;
+    color: #ffffff;
+    border-radius: 10px;
+    font-family: 'DM Sans', sans-serif;
+    width: 200px;
+    background-color: #4F9CF9;
+}
+
+.home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.back-img {
+    position: absolute;
+    top: 25%;
+    z-index: 0;
+}
+
+.img-home {
+    width: 100%;
+}
+
+.box-text {
+    z-index: 1;
+}
+
+.title {
+    font-size: 40px;
+    font-family: 'Inter';
+    font-weight: bold;
+}
+
+.text-body {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.work-together {
+    height: 100vh;
+    background-color: #FFFFFF;
+    align-items: center;
+    display: flex;
+
+}
+.img-work {
+    width: 40vw;
+}
+
+.organizer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.espacamento {
+    padding: 20px;
+}
+
+.black {
+    color: #212529;
+}
+
+footer {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    font-family: 'DM Sans';
+    font-weight: 100;
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+    
+}
